@@ -1,8 +1,23 @@
 .cardPanel {
-  height: 346px;
   overflow-y: hidden;
   overflow-x: scroll;
   display: flex;
   margin: 15px;
   gap: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .cardPanel {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    justify-content: center;
+    min-width: 940px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .cardPanel {
+    min-width: 0px;
+  }
 }

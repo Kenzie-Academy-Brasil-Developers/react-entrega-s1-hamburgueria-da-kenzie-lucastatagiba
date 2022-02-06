@@ -2,3 +2,33 @@
   text-align: center;
   height: 100vh;
 }
+.divResult {
+  height: 60px;
+  display: flex;
+  padding: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 34px;
+  color: #333333;
+}
+.resultContent {
+  color: #828282;
+}
+footer {
+  text-align: center;
+  color: #2c2a2a;
+}
+@media screen and (min-width: 1024px) {
+  .App {
+    text-align: start;
+  }
+  main {
+    display: flex;
+    justify-content: space-around;
+  }
+  .divResult {
+    padding-left: 80px;
+  }
+}

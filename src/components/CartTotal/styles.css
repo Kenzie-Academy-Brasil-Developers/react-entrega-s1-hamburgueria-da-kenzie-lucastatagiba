@@ -49,3 +49,8 @@
   color: #828282;
   cursor: pointer;
 }
+.buttonTotalPrice:hover {
+  background-color: #828282;
+  border: 2px solid #828282;
+  color: #e0e0e0;
+}

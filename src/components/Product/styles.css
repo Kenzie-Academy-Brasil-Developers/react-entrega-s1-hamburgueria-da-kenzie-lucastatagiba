@@ -4,6 +4,7 @@
   border: 2px solid #e0e0e0;
   box-sizing: border-box;
   border-radius: 5px;
+  max-height: 350px;
 }
 .imgCardContent {
   width: 296px;
@@ -59,4 +60,8 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
+  cursor: pointer;
+}
+.buttonCard:hover {
+  background-color: #93d7af;
 }
